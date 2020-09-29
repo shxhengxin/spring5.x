@@ -9,4 +9,10 @@
         <property name="title" value="Spring 5.X课堂" />
     </bean>
 
+    <bean id="videoOrder" class="net.xdclass.sp.domain.VideoOrder">
+        <property name="id" value="8" />
+        <property name="outTradeNo" value="55254545425" />
+        <property name="video"  ref="video" />
+    </bean>
+
 </beans>
